@@ -21,7 +21,7 @@ public class RockPaperScissorGame {
         }
         if((a==1 && c==1) | (a==2 && c==2) | (a==3 && c==3)){
             System.out.println("TIE");
-        } else if ((a == 1 && c==3) | (a == 2 && c==1) | (a==3 && c==2)|(a==2 && c==1)) {
+        } else if ((c==1 && a==3)|(c==2 && a==1)|(c==3 && a==2)) {
             System.out.println("WIN");
 
         }
